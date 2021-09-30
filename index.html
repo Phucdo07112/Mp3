@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+     rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mp3">
+            <div class="bar">
+                <img src="https://static-zmp3.zadn.vn/zmp3_rpt/images/logo-mp3.svg" alt="" class="logo">
+            <div class="navbar">
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="" class="navbar-item__category">
+                            <i class="navbar-item__icon fas fa-music"></i>
+                            Cá nhân
+                        </a>
+                    </li>
+                    <li class="navbar-item navbar-item__choose" >
+                        <a href="" class="navbar-item__category navbar-item__choose-item">
+                            <i class="navbar-item__icon fas fa-record-vinyl"></i>
+                            Khám phá
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="" class="navbar-item__category">
+                            <i class="navbar-item__icon fas fa-icons"></i>
+                            #zing chart
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="" class="navbar-item__category">
+                            <i class="navbar-item__icon fas fa-podcast"></i>
+                            Radio 
+                        </a>
+                        <a href="#" class="navbar-item_live">LIVE</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="" class="navbar-item__category">
+                            <i class="navbar-item__icon far fa-file-audio"></i>
+                            Theo giỏi
+                        </a>
+                    </li>
+                </ul>
+                <div class="navbar-advertisement">
+                    <ul class="navbar-advertisemen__new">
+                        <li class="navbar-advertisemen-top">
+                            <a href="" class="navbar-advertisemen__category">
+                                <i class="navbar-item__icon fas fa-music"></i>
+                                Nhạc mới
+                            </a>
+                        </li>
+                        <li class="navbar-advertisemen-top">
+                            <a href="" class="navbar-advertisemen__category">
+                                <i class="navbar-item__icon fas fa-guitar"></i>
+                                Thể loại
+                            </a>
+                        </li>
+                        <li class="navbar-advertisemen-top">
+                            <a href="" class="navbar-advertisemen__category">
+                                <i class="navbar-item__icon far fa-star"></i>
+                                Top 100
+                            </a>
+                        </li>
+                        <li class="navbar-advertisemen-top">
+                            <a href="" class="navbar-advertisemen__category">
+                                <i class="navbar-item__icon fas fa-ad"></i>
+                                MV
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar-advertisemen__vip">
+                        <p class="navbar-advertisemen-content">
+                            Nghe nhạc không quảng cáo cùng kho nhạc VIP
+                        </p>
+                        <a href="" class="navbar-advertisemen-shop">MUA VIP</a>
+                    </div>
+                    <div class="navbar-advertisemen__library">
+                            <h4 class="navbar-advertisemen__title">
+                                THƯ VIỆN
+                            </h4>
+                            <i class="navbar-advertisemen__icon fas fa-pencil-alt">
+                                <span class="navbar-advertisemen__edit">Chỉnh sửa</span>
+                            </i>
+
+                        <ul class="navbar-advertisemen__recently">
+                            <li class="navbar-advertisemen__list">
+                                <a href="" class="navbar-advertisemen__f-2">
+                                    <i class="navbar-item__icon navbar-item__icon-1 fas fa-headphones-alt"></i>
+                                    Bài hát
+                                </a>
+                            </li>
+                            <li class="navbar-advertisemen__list">
+                                <a href="" class="navbar-advertisemen__f-2">
+                                    <i class="navbar-item__icon navbar-item__icon-2 fas fa-sliders-h"></i>
+                                    Playlist
+                                </a>
+                            </li>
+                            <li class="navbar-advertisemen__list">
+                                <a href="" class="navbar-advertisemen__f-2">
+                                    <i class="navbar-item__icon navbar-item__icon-3 fas fa-clock"></i>
+                                    Gần đây
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-create">
+                    <div class="navbar-create__item">
+                        <a href="" class="navbar-create__content">
+                            <i class="navbar-create__icon fas fa-plus"></i>
+                            Tạo playlist mới
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="menu">
+                <div class="menu-next">
+                    <i class="menu-next__icon fas fa-arrow-left"></i>
+                    <i class="menu-next__icon fas fa-arrow-right"></i>
+                    <div class="menu-search">
+                        <i class="menu-search__icon fas fa-search"></i>
+                        <input type="text" class="menu-search__input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                        <ul class="menu-search__item">
+                            <li class="menu-search__list">
+                                <i class="menu-search__icon fas fa-search"></i>
+                                <a href="" class="menu-search__c1">lalisa</a>
+                            </li>
+                            <li class="menu-search__list">
+                                <i class="menu-search__icon fas fa-search"></i>
+                                <a href="" class="menu-search__c1">người lạ</a>
+                            </li>
+                            <li class="menu-search__list">
+                                <i class="menu-search__icon fas fa-search"></i>
+                                <a href="" class="menu-search__c1">yêu là cưới</a>
+                            </li>
+                            <li class="menu-search__list">
+                                <i class="menu-search__icon fas fa-search"></i>
+                                <a href="" class="menu-search__c1">zing choise</a>
+                            </li>
+                            <li class="menu-search__list">
+                                <i class="menu-search__icon fas fa-search"></i>
+                                <a href="" class="menu-search__c1">#zingchart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <div class="menu-right__item modal-btn__1">
+                             <i class="menu-right__icon menu-right__icon-4 fas fa-tshirt"></i>
+                    </div>
+                    <div class="menu-right__item">
+                        <i class="menu-right__icon fas fa-upload"></i>
+                    </div>
+                    <!-- setting -->
+                    <div class="menu-right__item menu-right__item-cl">
+                        <i class="menu-right__icon fas fa-cog"></i>
+                        <div class="menu-right__drop">
+                            <div class="menu-right__drop_v">
+                                <div class="menu-right__drop-dow">
+                                    <i class="menu-right__icon drop-dow__icon fas fa-ban"></i>
+                                    <a href="" class="menu-right__drop-content">Danh sách chặn</a>
+                                </div>
+                                <div class="menu-right__drop-dow menu-right__drop-1">
+                                    <i class="menu-right__icon drop-dow__icon fas fa-ad"></i>
+                                    <a href="" class="menu-right__drop-content">Chất lương nhạc</a>
+                                    <i class="menu-right__icon menu-right__right fas fa-angle-right"></i>
+                                    <div class="drop-dow__pro">
+                                        <div class="hq-c1">
+                                        <h3 class="hq-c1__1">SQ.128</h3>
+                                        <p class="hq-c1__2">Giảm sử dụng nguyên liệu cho các kết nối chậm hơn</p>
+                                        </div>
+                                        <div class="hq-c1 hq-c1__flex">
+                                        <div class="hq__content">
+                                            <h3 class="hq-c1__1">HQ.320</h3>
+                                            <p class="hq-c1__2">Kết nối tốt nhất giữa việc sử dụng dữ liệu và chất lượng âm thanh</p>
+                                        </div>
+                                        <i class="menu-right__icon menu-right__right fas fa-check"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="menu-right__drop-dow menu-right__drop-2">
+                                <i class="menu-right__icon drop-dow__icon far fa-play-circle"></i>
+                                <a href="" class="menu-right__drop-content">Trinh phát nhạc</a>
+                                <i class="menu-right__icon menu-right__right fas fa-angle-right"></i>
+                                <div class="drop-dow__pro-d1">
+                                    <span class="drop-dow__pro-c1">Luôn phát nhạc toàn màn hình</span>
+                                    <div class="pro-c1">
+                                        <div class="pro-c2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-right__drop-dow-2 menu-right__drop_v1">
+                                <div class="menu-right__drop-dow-1">
+                                    <i class="menu-right__icon drop-dow__icon fas fa-ban"></i>
+                                    <a href="" class="menu-right__drop-content">Giới thiệu</a>
+                                </div>
+                                <div class="menu-right__drop-dow-1">
+                                    <i class="menu-right__icon drop-dow__icon fas fa-ban"></i>
+                                    <a href="" class="menu-right__drop-content">Góp ý</a>
+                                </div>
+                                <div class="menu-right__drop-dow-1">
+                                    <i class="menu-right__icon drop-dow__icon fas fa-ban"></i>
+                                    <a href="" class="menu-right__drop-content">Liên hệ</a>
+                                </div>
+                                <div class="menu-right__drop-dow-1">
+                                    <i class="menu-right__icon drop-dow__icon fas fa-ban"></i>
+                                    <a href="" class="menu-right__drop-content">Quảng cáo</a>
+                                </div>
+                                <div class="menu-right__drop-dow-1">
+                                    <i class="menu-right__icon drop-dow__icon fas fa-ban"></i>
+                                    <a href="" class="menu-right__drop-content">Thỏa thuận sử dụng</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="menu-right__item">
+                        <img src="images/meo.jpg" alt="" class="menu-right__img">
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-zing">
+                    <div class="main-focus swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/zing-1.jpg" alt="" >
+                            </div>
+                            <div class="swiper-slide">
+                             <img src="images/zing-2.jpg" alt="" >
+                            </div>
+                            <div class="swiper-slide">
+                               <img src="images/sontung.jpeg" alt="" >
+                            </div>
+                            <div class="swiper-slide">
+                               <img src="images/ice.jpg" alt="" >
+                            </div>
+                            <div class="swiper-slide">
+                               <img src="images/do.jpg" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="main-content-c1">
+                        <h3 class="main-content-1">Nghe Gần Đây
+                            <i class="main-content-1__icon fas fa-angle-right"></i>
+                        </h3>
+                        
+                    </div>
+                </div>
+                <div class="main-1">
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/solo-2.jfif" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact">
+                                <h3 class="main-contact__cap">#ZINGCHART</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/rap.jpg" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact ">
+                                <h3 class="main-contact__cap">Rap Love</h3>
+                                <div class="main-contact__cap-1">
+                                    <a href="" class="main-contact__cap-2">Nelly</a>,
+                                    <a href="" class="main-contact__cap-2">Jac-Z</a>,
+                                    <a href="" class="main-contact__cap-2">G-Eazy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/chill.jpg" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact">
+                                <h3 class="main-contact__cap">Dinner Chill</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="main-content-c1">
+                        <h3 class="main-content__over">Gợi Ý Cho Hôm Nay</h3>
+                        <div class="main-content__right">
+                            <i class="main-content__icon fas fa-chevron-left"></i>
+                            <i class="main-content-1__icon fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-1">
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/trai.jpg" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact">
+                                <h3 class="main-contact__cap">Những Chàng Trai Indie Việt</h3>
+                                <div class="main-contact__cap-1">
+                                    <a href="" class="main-contact__cap-2">Thái Đình</a>,
+                                    <a href="" class="main-contact__cap-2">Reddy</a>,
+                                    <a href="" class="main-contact__cap-2">Duongg...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/ẻic.jpg" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact ">
+                                <h3 class="main-contact__cap">Pop Ballad Việt Nổi Bật</h3>
+                                <div class="main-contact__cap-1">
+                                    <a href="" class="main-contact__cap-2">ERIK</a>,
+                                    <a href="" class="main-contact__cap-2">Hiền Hồ</a>,
+                                    <a href="" class="main-contact__cap-2">Hương Ly...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/hoa.jpg" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact">
+                                <h3 class="main-contact__cap">Thay Lời Muốn Nói: Nở Đi...</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/thuong.jpg" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact">
+                                <h3 class="main-contact__cap">Thương Thầm</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-recently">
+                        <div class="main-chart">
+                            <div class="main-chart__img">
+                                <img src="images/da.jpg" alt="" class="main-chart__img-1">
+                                <div class="main-chart__play">
+                                    <i class="main-chart__play-1 far fa-heart"></i>
+                                    <i class="main-chart__play-1 far fa-play-circle"></i>
+                                    <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="main-contact">
+                                <h3 class="main-contact__cap">Những Tình Khúc Da Diết</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="main-content-c1">
+                        <h3 class="main-content__over">Nghệ Sĩ Yêu Thích</h3>
+                    </div>
+                </div>
+                <div class="like">
+                    <div class="like-main">
+                        <div class="like-main__play">
+                            <i class="like-main__play-icon far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="like__name">
+                        <p class="like__name-1">BẠN ĐÃ QUAN TÂM</p>
+                        <h1 class="like__name-2">Thái Đinh</h2>
+                        <div class="name-music">
+                            <img src="images/phokhongem.jpg" alt="" class="name__img">
+                            <img src="images/1.jpg" alt="" class="name__img">
+                            <img src="images/2.jpg" alt="" class="name__img">
+                            <img src="images/3.jpg" alt="" class="name__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="partner">
+                    <h3 class="partner-content">ĐỐI TÁC ÂM NHẠC</h3>
+                    <div class="partner-contact">
+                        <img src="images/doitac-4.png" alt="" class="partner__img">
+                        <img src="images/doitac-5.png" alt="" class="partner__img">
+                        <img src="images/doitac-3.png" alt="" class="partner__img">
+                        <img src="images/doitac-1.png" alt="" class="partner__img">
+                        <img src="images/doitac-2.png" alt="" class="partner__img">
+                        <img src="images/doitac-6.png" alt="" class="partner__img">
+                        <img src="images/doitac-7.png" alt="" class="partner__img">
+                        <img src="images/doitac-8.png" alt="" class="partner__img">
+                    </div>
+                </div>
+            </div>
+            <div class="radio">
+                <div class="music-container">
+                    <div class="radio-music">
+                        <audio src="music/ThichEmHoiNhieuOrinnVinahouseRemix-WrenEvans-7042187.mp3" id="audio"></audio>
+                        <div class="img-container">
+                            <img src="images/thich.jpg" alt="music-cover" class="radio-music__img">
+                        </div>
+                        <div class="radio-music__content">
+                            <div class="main-contact__cap-1">
+                                <h3 id="title" class="radio-music__cap">Thích Em Hơi Nhiều</h3>
+                                <a href="" class="main-contact__cap-2">OrinnRX - Wren Evans</a>
+                            </div>
+                            <div class="radio-music__heart">
+                                <i class="main-chart__play-1 far fa-heart"></i>
+                            </div>
+                            <div class="radio-music__heart">
+                                <i class="main-chart__play-1 fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                    </div>
+                <div class="navigation">
+                    <div class="navigation-1">
+                        <button class="action-btn">
+                            <i class="fas fa-random"></i>
+                        </button>
+                        <button id="prev" class="action-btn">
+                            <i class="fas fa-backward"></i>
+                        </button>
+                        <button id="play" class="action-btn action-btn-big">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button id="next" class="action-btn">
+                            <i class="fas fa-forward"></i>
+                        </button>
+                        <button  class="action-btn">
+                            <i class="fas fa-reply-all"></i>
+                        </button>
+                    </div>
+                        <div class="progress-container">
+                            <div class="progress"></div>
+                            <audio src="" id="audio"></audio>
+                        </div>
+                </div>
+                <div class="speakers">
+                    <div class="radio-music__heart">
+                        <i class="radio__icon fas fa-ad"></i>
+                    </div>
+                    <div class="radio-music__heart">
+                        <i class="radio__icon fas fa-microphone-alt"></i>
+                    </div>
+                    <div class="control-box">
+                        <div class="volume-control">
+                            <div class="speker radio-music__heart">
+                                <i class="radio__icon fas fa-volume-up"></i>
+                            </div>
+                        </div>
+                        <div class="volume-panel">
+                            <div class="input-div">
+                                <div class="volume-input-div">
+                                    <input type="range" value="100" step="5">
+                                    <div class="volume-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speakers-volume__c1">
+                        <i class="radio__icon fas fa-headphones"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- moda -->
+            <div class="modal-bg">
+                <div class="modal-idoi">
+                    <div class="modal-idol__theme-c1">
+                        <span class="modal-idol__theme">Giao Diện</span>
+                        <div href="" class="modal-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="modal-idoi__theme-1">
+                        <div class="modal-idoi__auto">
+                            <span class="modal-idoi__theme-zing">Chủ Đề</span>
+                            <div class="theme-zing__right">
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+    
+                                        <img src="images/IEP Logo Mark.jfif" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                                <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                                <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="theme-music__content">Zing Music Awards</div>
+                            </div>
+                            <div class="modal-idoi__theme-music">
+                                <div class="theme-music__over">
+                                    <img src="images/thap.jpg" alt="" class="theme-music__img">
+                                    <div class="theme-music__apply">
+                                        <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                        </div>
+                                        <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="theme-music__content">Tháp Eiffel</div>
+                                </div>
+                            </div>
+                        <div class="modal-idoi__theme-1">
+                            <span class="modal-idoi__theme-zing">Nghệ Sĩ</span>
+                            <div class="theme-zing__right">
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <img src="images/jack01_gtpf.jpg" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Jack</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <img src="images/iu.1" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">IU</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <img src="images/ji chang wook.jpg" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Ji Chang Wook</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <img src="images/lisa.jpg" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Lisa</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <img src="images/jennie.jpg" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Jennie</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <img src="images/jisoo.jpeg" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Jisoo</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <img src="images/Rose.jpg" alt="" class="theme-music__img">
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Rose</div>
+                                </div>
+                            </div>
+    
+    
+                            <div class="modal-idoi__theme-1">
+                            <div class="theme-zing__right">
+                                
+                        <div class="modal-idoi__theme-1">
+                            <span class="modal-idoi__theme-zing">Màu Tối</span>
+                            <div class="theme-zing__right">
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c1"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Tối</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c2"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Tím</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c3"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Xanh Đậm</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c4"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Xanh Biển</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c5"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Xanh lá</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c6"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Nâu</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c7"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Hồng</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c8"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Đỏ</div>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="modal-idoi__theme-1">
+                            <span class="modal-idoi__theme-zing">Màu Tối</span>
+                            <div class="theme-zing__right">
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c9"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Trắng</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c10"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Xám</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c11"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Xanh Nhạt</div>
+                                </div>
+                                <div class="modal-idoi__theme-music">
+                                    <div class="theme-music__over">
+                                        <div class="theme-music__img-c0 theme-music__img-c12"></div>
+                                        <div class="theme-music__apply">
+                                            <div class="theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">ÁP DỤNG</a>
+                                            </div>
+                                            <div class="theme-music__apply-awards-c1 theme-music__apply-awards">
+                                            <a href="" class="theme-music__apply-c1">XEM TRƯỚC</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-music__content">Hồng Cách Sen</div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 10,
+          stretch: 0,
+          depth: 350,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+            delay:2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <script>
+        //volume
+var volumeControl = document.querySelector('.volume-control')
+var volumePanel = volumeControl.querySelector('.volume-panel')
+var volumeRange = volumePanel.querySelector('input')
+var volumeProgress = volumePanel.querySelector('.volume-progress')
+
+//volume change
+volumeRange.addEventListener('input', function(e) {
+    volumeProgress.style.width = volumeRange.value + '%';
+
+    video.volume = volumeRange.value / 100;
+}, false);
+    </script>
+</body>
+</html>

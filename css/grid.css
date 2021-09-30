@@ -1,0 +1,15 @@
+i.navbar-advertisemen__icon.fas.fa-pencil-alt {
+    width: 72px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.theme-music__content{
+    width: 142px;
+    text-align: left;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 6px;
+    font-weight: bold;
+}
